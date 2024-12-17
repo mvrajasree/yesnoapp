@@ -1,0 +1,41 @@
+.heading{
+ font-size: 5em;
+ margin-bottom: 0;
+}
+body{
+    background-color: #000;
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: #FFF;
+}
+.caption{
+    font-size: 1.2em;
+}
+.container{
+    border: solid 1px #FFF;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    aspect-ratio: 16/9;
+}
+input[type="button"]{
+    font-size: 2em;
+    padding: 5px;
+    width: 200px;
+    background-color: blueviolet;
+    color: #FFF;
+    border-radius: 10px;
+    border: none;
+    aspect-ratio: 200/100;
+}
+.count{
+    display: inline;
+}
+.row{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
